@@ -73,6 +73,7 @@ jobs:
         ./scripts/feeds install -a
         ./scripts/feeds install -a
 
+    # michael enable the following...
     - name: Import external feeds
       working-directory: ./openwrt
       run: |
